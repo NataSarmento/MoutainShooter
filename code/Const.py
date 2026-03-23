@@ -7,6 +7,10 @@ COLOR_WHITE = (255, 255, 255)
 ENTITY_SPEED = { 'Level1Bg0':0,
                 'Level1Bg1':1,
                 'Level1Bg2':3}
+#G
+GRAVITY = 0.5
+JUMP_SIZE = -15
+
 #M
 MENU_OPTION = ('NEW GAME',
                'SCORE',
