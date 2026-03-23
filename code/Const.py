@@ -1,21 +1,26 @@
-#C
+# C
+import pygame
+
 COLOR_BLACK = (0, 0, 0)
 COLOR_BLUE = (0, 0, 255)
 COLOR_YELLOW = (255, 255, 0)
 COLOR_WHITE = (255, 255, 255)
-#E
-ENTITY_SPEED = { 'Level1Bg0':0,
-                'Level1Bg1':1,
-                'Level1Bg2':3}
-#G
+# E
+EVENT_ENEMY = pygame.USEREVENT + 1
+ENTITY_SPEED = {'Level1Bg0': 0,
+                'Level1Bg1': 1,
+                'Level1Bg2': 3,
+                'Enemy': 2,
+                'Enemy2': 3}
+# G
 GRAVITY = 0.5
 JUMP_SIZE = -15
 
-#M
+# M
 MENU_OPTION = ('NEW GAME',
                'SCORE',
                'EXIT')
 
-#W
+# W
 WIN_WIDTH = 1080
 WIN_HEIGHT = 576
