@@ -14,10 +14,7 @@ class Game:
         pygame.display.set_caption("Vampire Shooter - Project")
 
     def run(self):
-        """Loop principal de orquestração do jogo. Gerencia a transição entre telas."""
 
-        # Instanciação das classes de interface (Menu e Score)
-        # Fazemos isso fora do loop para otimização de recursos
         menu = Menu(self.window)
         score_screen = Score(self.window)
 
